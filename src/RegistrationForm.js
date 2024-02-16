@@ -77,7 +77,7 @@ const RegistrationForm = ({ onRegister }) => {
         </div>
         <div className="col-12">
           <label htmlFor="email" className="form-label">Email</label>
-          <input type="email" className="form-control" id="email" name="email" value={formData.email} onChange={handleChange} />
+          <input type="text" className="form-control" id="email" name="email" value={formData.email} onChange={handleChange} />
           {errors.email && <div className="text-danger">{errors.email}</div>}
         </div>
         <div className="col-12">
